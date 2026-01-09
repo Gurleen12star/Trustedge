@@ -21,4 +21,8 @@ struct Invoice {
     InvoiceStatus status;
 };
 
+// Utility functions
+std::string invoiceStatusToString(InvoiceStatus status);
+void printInvoice(const Invoice& invoice);
+
 #endif
